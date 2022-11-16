@@ -9,7 +9,7 @@ int bridge(char *check, char **args)
 {
 	int i = 0;
 
-	if (builtins_checker(args) == 1)
+	if (check_builtin(args) == 1)
 		return (1);
 	while (check[i] != '\0')
 	{
