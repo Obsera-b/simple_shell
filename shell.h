@@ -96,6 +96,11 @@ void print_number_in(int n);
 void print_error(char *line, int c, char **argv);
 void _prerror(char **argv, int c, char **cmd);
 char *_strstr(char *haystack, char *needle);
+char *find_path(char *args, char *tmp, char *er);
+char **split_line(char *line);
+char *find_path(char *args, char *tmp, char *er);
+char *search_cwd(char *filename, char *er);
+int execute_prog(char **args, char *line, char **env, int flow);
 
 /**
  * struct bulltin - contain bultin to handle and function to excute
