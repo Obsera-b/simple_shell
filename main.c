@@ -52,7 +52,7 @@ int main(__attribute__((unused)) int argc, char **argv)
  * @cmd:command to check
  * Return: 0 Succes -1 Fail
  */
-int check_builtin(char **cmd)
+int builtins_checker(char **cmd)
 {
 	bul_t fun[] = {
 		{"cd", NULL},
