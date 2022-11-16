@@ -101,6 +101,7 @@ char **split_line(char *line);
 char *find_path(char *args, char *tmp, char *er);
 char *search_cwd(char *filename, char *er);
 int execute_prog(char **args, char *line, char **env, int flow);
+int bridge(char *check, char **args);
 
 /**
  * struct bulltin - contain bultin to handle and function to excute
