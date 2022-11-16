@@ -265,8 +265,8 @@ $
 
 ## Authors & Copyrights
 
-* Luis chaparro <[luischaparroc](https://github.com/luischaparroc)>
-* Edward Ortiz <[edward0rtiz](https://github.com/edward0rtiz)>
+* Obsera Bulto <obseee57@gmail.com>
+* TESFAMARIAM SOLOMON  <hope2006ng.ts@gmail.com>
 
 ## More information
 
