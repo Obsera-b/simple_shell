@@ -95,7 +95,7 @@ void print_number(unsigned int n);
 void print_number_in(int n);
 void print_error(char *line, int c, char **argv);
 void _prerror(char **argv, int c, char **cmd);
-
+char *_strstr(char *haystack, char *needle);
 
 /**
  * struct bulltin - contain bultin to handle and function to excute
