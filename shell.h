@@ -72,7 +72,7 @@ char **parse_cmd(char *cmd);
 int handle_builtin(char **cmd, int er);
 void read_file(char *filename, char **argv);
 char *build(char *token, char *value);
-int builtins_checker(char **cmd);
+int check_builtin(char **cmd);
 void creat_envi(char **envi);
 int check_cmd(char **tokens, char *line, int count, char **argv);
 void treat_file(char *line, int counter, FILE *fd, char **argv);
