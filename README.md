@@ -67,6 +67,5 @@ wait4 (man 2 wait4)
 write (man 2 write)
 
 Authors
-
-Obsera Bulto 
+Obsera Bulto
 TESFAMARIAM SOLOMON
